@@ -9,6 +9,8 @@ chmod 644 "/System/Library/Fonts/FONTFILENAME.ttc"</code></pre>
 
 These fonts are **user-inaccessible hidden fonts** in every font menu in every app; Only **CTPresetFallbacks.plist** and **DefaultFontFallbacks.plist** could let them work possible, with **STHeiti's complete removal** required.
 
+P.S.: Specifically modified font fallback files could let this fontset work better.
+
 You may want to install official SHS build again for any other usages you want:<br>
 https://github.com/adobe-fonts/source-han-sans/tree/release
 
