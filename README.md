@@ -1,8 +1,35 @@
 SHSDeskInterface
 ================
+##// Disclaimer
+This modified set of Source Han Sans is made for OS X &amp; iOS's GUI font purposes only.
 
-1. This modified set of Source Han Sans is made for OS X &amp; iOS's GUI font purposes only.<br>
-2. These fonts, which should be installed via sudo privileges to the system font folder, are user-unaccessable hidden fonts in every font menu in every app. You may want to install official SHS build again for other usages:<br>
+These fonts, which should be installed via sudo privileges to the system font folder, are **user-unaccessable hidden fonts** in every font menu in every app. 
+
+You may want to install official SHS build again for any other usages you want:<br>
 https://github.com/adobe-fonts/source-han-sans/tree/release
+
+##// Parameters Modified from SHS (excl. PostScript name)
+
+We added and modified some parameters among "features.otc.???" files.<br>
+(We only talk about Langage-Specific Releases, not Region-Specific Releases.)
+
+Step 1: Add following info before VHEA table:
+<pre><code>table hhea {
+  Ascender 807;
+  Descender -192;
+  LineGap 30;
+} hhea;</code></pre>
+Step 2: Find 
+<pre><code>table OS/2 {
+  TypoAscender 880;
+  TypoDescender -120;
+  TypoLineGap 500;</code></pre>
+Change into:
+<pre><code>table OS/2 {
+  Ascender 807;
+  Descender -192;
+  TypoLineGap 0;</code></pre>
+
+That's all.
 
 [EOF]
