@@ -36,8 +36,10 @@ Change into:
   Descender -192;
   TypoLineGap 0;</code></pre>
 
-Those steps above could let the SHS display correctly as System's CJK GUI font while you are doing CJK filename's renaming:</br>
-![image](https://cloud.githubusercontent.com/assets/3164826/4935104/89d617d0-65a8-11e4-9c3b-8a220cc09ef4.png)</br>
+Those steps above could let the SHS display correctly as System's CJK GUI font while you are doing CJK filename's renaming:
+
+![image](https://cloud.githubusercontent.com/assets/3164826/4935104/89d617d0-65a8-11e4-9c3b-8a220cc09ef4.png)
+
 And it shows the same display lineHeight as STHeiti in iMessages.
 
 That's all.
