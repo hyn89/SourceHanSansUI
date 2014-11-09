@@ -16,7 +16,7 @@ https://github.com/adobe-fonts/source-han-sans/tree/release
 
 ##// Parameters Modified from SHS (excl. PostScript name)
 
-We added and modified some parameters among "features.otc.???" files.<br>
+We added and modified some parameters among all of those "features.otc.???" files.<br>
 (We only talk about Langage-Specific Releases, not Region-Specific Releases.)
 
 Step 1: Add following info before VHEA table:
