@@ -14,6 +14,10 @@ P.S.: Specifically modified font fallback files could let this fontset work bett
 You may want to install official SHS build again for any other usages you want:<br>
 https://github.com/adobe-fonts/source-han-sans/tree/release
 
+##// Installation
+
+You should visit this website: https://github.com/othercat/CJKFontScript , download `install_SHS-DeskInterfaceOnly.sh`, and run `sudo bash install_SHS-DeskInterfaceOnly.sh` in Terminal. Please close all other applications and finish all of your other pending Terminal process before running this installer script (there will be an automatic reboot with prompt).
+
 ##// Parameters Modified from SHS (excl. PostScript name)
 
 We added and modified some parameters among all of those "features.otc.???" files.<br>
