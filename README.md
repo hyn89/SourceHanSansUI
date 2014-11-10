@@ -23,6 +23,8 @@ You should visit this website: https://github.com/othercat/CJKFontScript , downl
 We added and modified some parameters among all of those "features.otc.???" files.<br>
 (We only talk about Langage-Specific Releases, not Region-Specific Releases.)
 
+P.S.: Special Thanks to Ken Lunde for technical support about using AFDKO, otherwise I couldn't get this achieved.
+
 Step 1: Add following info before VHEA table:
 <pre><code>table hhea {
   Ascender 807;
