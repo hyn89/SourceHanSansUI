@@ -27,9 +27,9 @@ P.S.: Special Thanks to Ken Lunde for technical support about using AFDKO, other
 
 Step 1: Add following info before VHEA table:
 <pre><code>table hhea {
-  Ascender 807;
-  Descender -192;
-  LineGap 30;
+  Ascender 880;
+  Descender -120;
+  LineGap 50;
 } hhea;</code></pre>
 Step 2: Find 
 <pre><code>table OS/2 {
@@ -38,9 +38,9 @@ Step 2: Find
   TypoLineGap 500;</code></pre>
 Change into:
 <pre><code>table OS/2 {
-  Ascender 807;
-  Descender -192;
-  TypoLineGap 0;</code></pre>
+  TypoAscender 880;
+  TypoDescender -120;
+  TypoLineGap 50;</code></pre>
 
 Those steps above could let the SHS display correctly as System's CJK GUI font while you are doing CJK filename's renaming:
 
