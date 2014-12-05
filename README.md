@@ -7,7 +7,7 @@ These fonts should be installed **via sudo privileges** to either the system fon
 <pre><code>chown root:wheel "/Library/Fonts/FONTFILENAME.ttc"
 chmod 644 "/Library/Fonts/FONTFILENAME.ttc"</code></pre>
 
-These fonts are **user-inaccessible hidden fonts** in every font menu in every app; Only **CTPresetFallbacks.plist** and **DefaultFontFallbacks.plist** could let them work possible, with **STHeiti's complete removal** required.
+These fonts' post script name are hidden under OS X; Only **CTPresetFallbacks.plist** and **DefaultFontFallbacks.plist** could let them work as GUI fonts in OS X Yosemite, with current system CJK GUI fonts' **removal** needed (I currently recommend you to remove STHeiti series only).
 
 P.S.: Specifically modified font fallback files could let this fontset work better.
 
@@ -21,9 +21,9 @@ You should visit this website: https://github.com/othercat/CJKFontScript , downl
 ##// Parameters Modified from SHS (excl. PostScript name)
 
 We added and modified some parameters among all of those "features.otc.???" files.<br>
-(We only talk about Langage-Specific Releases, not Region-Specific Releases.)
+(We only talk about Langage-Specific Releases, not Region-Specific Releases because nobody want to see glyph-blank-box while using these fonts.)
 
-P.S.: Special Thanks to Ken Lunde for technical support about using AFDKO, otherwise I couldn't get this achieved.
+P.S.: Special thanks to **Kobayashi Ken (a.k.a. Ken Lunde, the programmer of Source Han Sans)**, for his suggestion on pointing out which parameter should be modified and his tips on using AFDKO, otherwise I couldn't get this achieved.
 
 Step 1: Add following info before VHEA table:
 <pre><code>table hhea {
