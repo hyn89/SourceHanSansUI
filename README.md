@@ -7,7 +7,7 @@ These fonts should be installed **via sudo privileges** to either the system fon
 <pre><code>chown root:wheel "/Library/Fonts/FONTFILENAME.ttc"
 chmod 644 "/Library/Fonts/FONTFILENAME.ttc"</code></pre>
 
-These fonts' post script name are hidden under OS X; Only **CTPresetFallbacks.plist** and **DefaultFontFallbacks.plist** could let them work as GUI fonts in OS X Yosemite, with current system CJK GUI fonts' **removal** needed (I currently recommend you to remove STHeiti series only).
+These fonts' post script names are hidden under OS X; Only **CTPresetFallbacks.plist** and **DefaultFontFallbacks.plist** could let them work as GUI fonts in OS X Yosemite, with current system CJK GUI fonts' **removal** needed (I currently recommend you to remove STHeiti series only).
 
 P.S.: Specifically modified font fallback files could let this fontset work better.
 
