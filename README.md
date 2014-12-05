@@ -54,6 +54,9 @@ And it doesn't trigger any display malfunction in XCode:
 
 ![image](https://cloud.githubusercontent.com/assets/3164826/5310926/04a3ddc4-7bf9-11e4-85c0-65c6d997eb5c.png)
 
+More screenshots (for both Traditional and Simplified Yosemite GUI):
+http://1drv.ms/12r4uoc
+
 That's all.
 
 [EOF]
