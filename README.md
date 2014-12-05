@@ -3,9 +3,9 @@ SHSDeskInterface
 ##// Disclaimer
 This modified set of Source Han Sans is made for OS X &amp; iOS's GUI font purposes only.
 
-These fonts should be installed **via sudo privileges** to the system font folder:
-<pre><code>chown root:wheel "/System/Library/Fonts/FONTFILENAME.ttc"
-chmod 644 "/System/Library/Fonts/FONTFILENAME.ttc"</code></pre>
+These fonts should be installed **via sudo privileges** to either the system font folder `/System/Library/Fonts/` or library font folder `/Library/Fonts/`:
+<pre><code>chown root:wheel "/Library/Fonts/FONTFILENAME.ttc"
+chmod 644 "/Library/Fonts/FONTFILENAME.ttc"</code></pre>
 
 These fonts are **user-inaccessible hidden fonts** in every font menu in every app; Only **CTPresetFallbacks.plist** and **DefaultFontFallbacks.plist** could let them work possible, with **STHeiti's complete removal** required.
 
