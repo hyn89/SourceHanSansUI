@@ -29,7 +29,7 @@ Step 1: Add following info before VHEA table:
 <pre><code>table hhea {
   Ascender 880;
   Descender -120;
-  LineGap 50;
+  LineGap 100;
 } hhea;</code></pre>
 Step 2: Find 
 <pre><code>table OS/2 {
@@ -40,13 +40,19 @@ Change into:
 <pre><code>table OS/2 {
   TypoAscender 880;
   TypoDescender -120;
-  TypoLineGap 50;</code></pre>
+  TypoLineGap 100;</code></pre>
 
 Those steps above could let the SHS display correctly as System's CJK GUI font while you are doing CJK filename's renaming:
 
-![image](https://cloud.githubusercontent.com/assets/3164826/4935104/89d617d0-65a8-11e4-9c3b-8a220cc09ef4.png)
+![image](https://cloud.githubusercontent.com/assets/3164826/5310999/bb4b5d26-7bfa-11e4-8c64-a047c7c0a53a.png)
 
-And it shows the same display lineHeight as STHeiti in iMessages.
+And it shows the better display lineHeight than STHeiti in iMessages:
+
+![image](https://cloud.githubusercontent.com/assets/3164826/5310910/d05232f0-7bf8-11e4-8482-adab07c07997.png)
+
+And it doesn't trigger any display malfunction in XCode:
+
+![image](https://cloud.githubusercontent.com/assets/3164826/5310926/04a3ddc4-7bf9-11e4-85c0-65c6d997eb5c.png)
 
 That's all.
 
