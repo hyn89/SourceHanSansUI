@@ -32,7 +32,7 @@ P.S.: Special thanks to **Kobayashi Ken (a.k.a. Ken Lunde, the programmer of Sou
 
 Step 1: Add following info before VHEA table:
 <pre><code>table hhea {
-  Ascender 980;
+  Ascender 880;
   Descender -120;
   LineGap 0;
 } hhea;</code></pre>
@@ -43,9 +43,11 @@ Step 2: Find
   TypoLineGap 500;</code></pre>
 Change into:
 <pre><code>table OS/2 {
-  TypoAscender 980;
+  TypoAscender 880;
   TypoDescender -120;
   TypoLineGap 0;</code></pre>
+  
+That is: we only need to modify the horizontal lineGap into 0.
 
 Those steps above could let the SHS display correctly as System's CJK GUI font while you are doing CJK filename's renaming:
 
