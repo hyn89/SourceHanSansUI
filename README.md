@@ -32,8 +32,8 @@ P.S.: Special thanks to **Kobayashi Ken (a.k.a. Ken Lunde, the programmer of Sou
 
 Step 1: Add following info before VHEA table:
 <pre><code>table hhea {
-  Ascender 880;
-  Descender -120;
+  Ascender 1000;
+  Descender -234;
   LineGap 0;
 } hhea;</code></pre>
 Step 2: Find 
@@ -43,11 +43,9 @@ Step 2: Find
   TypoLineGap 500;</code></pre>
 Change into:
 <pre><code>table OS/2 {
-  TypoAscender 880;
-  TypoDescender -120;
+  TypoAscender 1000;
+  TypoDescender -234;
   TypoLineGap 0;</code></pre>
-  
-That is: we only need to modify the horizontal lineGap into 0.
 
 Those steps above could let the SHS display correctly as System's CJK GUI font while you are doing CJK filename's renaming:
 
@@ -56,10 +54,6 @@ Those steps above could let the SHS display correctly as System's CJK GUI font w
 And it shows the better display lineHeight than STHeiti in iMessages:
 
 ![image](https://cloud.githubusercontent.com/assets/3164826/5310910/d05232f0-7bf8-11e4-8482-adab07c07997.png)
-
-And it doesn't trigger any display malfunction in XCode:
-
-![image](https://cloud.githubusercontent.com/assets/3164826/5310926/04a3ddc4-7bf9-11e4-85c0-65c6d997eb5c.png)
 
 And it shows multi-line filename well in Finder:
 ![image](https://cloud.githubusercontent.com/assets/3164826/5991332/a4c86508-a9a4-11e4-8f86-618af29368d3.png)
